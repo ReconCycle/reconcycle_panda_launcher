@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <package format="2">
-  <name>reconcycle_panda_start</name>
+  <name>reconcycle_panda_launcher</name>
   <version>0.0.0</version>
   <description>The reconcycle_panda_start package</description>
 

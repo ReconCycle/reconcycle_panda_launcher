@@ -1,0 +1,20 @@
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Comment[en_US]=
+Comment=
+Exec=bash -c "source /home/panda/panda_ws/devel/setup.bash && export ROS_MASTER_URI=http://10.20.0.1:11311 && export ROS_IP=10.20.0.21 && roslaunch reconcycle_panda_launcher start.launch robot_ip:=192.16.0.1 name:=panda1"
+GenericName[en_US]=
+GenericName=
+Icon=/home/panda/Downloads/Logotip_IJS.svg
+MimeType=
+Name[en_US]=Panda 3 State Publiser
+Name=Panda 3 State Publisher
+Path=
+StartupNotify=true
+Terminal=true
+TerminalOptions=\s--noclose
+Type=Application
+X-DBUS-ServiceName=
+X-DBUS-StartupType=none
+X-KDE-SubstituteUID=false
+X-KDE-Username=
