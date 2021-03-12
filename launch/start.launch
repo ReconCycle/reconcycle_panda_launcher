@@ -1,0 +1,19 @@
+ 
+<launch>
+
+<arg name="robot_name" default="panda"/>
+
+
+<group ns="$(arg name)">
+
+<param name="tf_prefix" value="$(arg name)"/>
+
+<arg name="robot_ip" default="192.16.0.2"/>
+<arg name="load_gripper" default="true"/>
+<include file="$(find ijs_controllers)/launch/joint_impedance.launch">
+<arg name="robot_ip" value="$(arg robot_ip)"/>
+<arg name="load_gripper" value="$(arg load_gripper)"/>
+</include>
+</group>
+
+</launch>
